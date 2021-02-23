@@ -7,8 +7,8 @@ import os
 from config import *
 
 parser = argparse.ArgumentParser(description='Plot interactive audio in 2D space.')
-parser.add_argument('tsne_file', type = str, help = 'Location of the CSV file with plot details.')
-parser.add_argument('title', type = str, help = 'Title of the plot.')
+parser.add_argument('d_tsne', type = str, help = 'Location of the CSV file with plot details.')
+parser.add_argument('Nonverbal vocalisations and speech prosody of 22 positive emotions', type = str, help = 'Title of the plot.')
 parser.add_argument('description', type = str, help = 'Description of the plot.')
 parser.add_argument('output_file', type = str, help = 'Output HTML file.')
 
